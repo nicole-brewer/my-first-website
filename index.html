@@ -1,1 +1,42 @@
-Nicole's Projects
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nicole Brewer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="nicole-brewer.css">
+	</head>
+<body>
+
+	<header>
+		<nav id="nav">
+			<ul id="menuOptions"><li><a href="nicole-brewer.com">Nicole Brewer</a></li>
+				<li><a href="#s2">Introduction</a></li>
+				<li><a href="#s3">Take My Card</a></li></ul>
+		</nav>
+	</header>
+	<div id="body">
+		<div class="odd"><h1>Nicole Brewer</h1></div>
+		<div class="even"><h1>Introduction</h1></div>
+		<div class="odd"><h1>Take My Card</h1></div>
+
+	</div>
+	<footer></footer>
+
+
+
+<script>
+	var width = document.documentElement.clientWidth;
+	console.log(width);
+	var nav = document.getElementById("nav");
+
+	if (width < 500) {
+		nav.innerHTML = "<img src=\"image.jpg\">";
+
+	}
+
+
+
+</script>
+</body>
+</html>
