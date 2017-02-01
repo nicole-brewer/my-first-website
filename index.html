@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Nicole Brewer</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="nicole-brewer.css">
-	</head>
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="~/Repos/nicole-brewer/css/bootstrap-social.css">
+</head>
 <body>
 
-	<header>
-		<nav id="nav">
-			<ul id="menuOptions"><li><a href="nicole-brewer.com">Nicole Brewer</a></li>
-				<li><a href="#s2">Introduction</a></li>
-				<li><a href="#s3">Take My Card</a></li></ul>
-		</nav>
-	</header>
-	<div id="body">
-		<div class="odd"><h1>Nicole Brewer</h1></div>
-		<div class="even"><h1>Introduction</h1></div>
-		<div class="odd"><h1>Take My Card</h1></div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="www.nicole-brewer.com"><span class="glyphicon glyphicon-arrow-left"></span>   Back to nicole-brewer.com</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.linkedin.com/in/nicole-brewer">LinkedIn</a></li>
+          <li><a href="https://github.com/nicle-brewer">GitHub</a></li>
+          <li><a href="mailto:brewer36@purdue.edu"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          <li><a href="http://www.nicole-brewer.com/resume/resume.pdf" download><span class="glyphicon glyphicon-save"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-	</div>
-	<footer></footer>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6" >
+      <h1>Nicole Brewer</h1>
+      <h4>Purdue University</h6>
+      <p>West Lafayette, IN<br>Bachelor of Science in Mathematics with Computer Science<br>August 2018<br></p>
+    </div>
+    <div class="col-sm-offset-*">
+      <img src="~/Repos/nicole-brewer/img/profile.JPG" class="img-responsive img-circle">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4" style="height:100%">
+      <div class="well" style="height: 100%">
+      <p><strong>Undergraduate Teaching Assistant</strong><br>Object-Oriented Programming<br>August 2016 - Present</p>
+      <ul><li>Fostered critical thinking of students in laboratory by
+        encouraging them to abstract reasoning behind syntax</li></ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="well">
+      <p><strong>Multisport Athlete</strong><br>Purdue Triathon Club and Monroe County YMCA Endurance Group<br>May 2015 to Present</p>
+      <ul><li>Trained with the Purdue Triathlon Team year round in order to represent the school well at MECTC Regionals and USA Triathlon
+                 Collegiate Nationals</li>
+      <li>Organized and executed a training schedule for Disney and
+                  Monumental marathons concurrently with academic work</li>
+      <li>Devoted 10-16 hours per week training in multiple disciplines
+                     the four months leading up to Ironman 70.3 Steelhead</li></ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="well">
+      <p><strong>Member Services</strong><br>Indiana University Campus Recreational Sports<br>
+                       March 2013 - July 2014</p>
+      <ul><li>Performed customer service, sales, and front desk operations,
+                          including handling or directing questions and concerns from staff and
+                          participants about facility policy</li>
+      <li>Directed all radio traffic among three facilities and communication
+                             with authorities in the case of an emergency</li></ul>
+     </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="well">
+      <p><strong>Social Media Coordinator</strong><br>Purdue Triathlon Club<br>May 2015 - Present</p>
+      <ul><li>Administrated the club’s Facebook account in order to promote membership, sponsorship relations, and club races</li>
+          <li>Served as a member of the club’s executive board by contributing to the deliberation of member retention, allocation of funds, volunteerism, etc.</li></ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="well">
+      <p><strong>Actor</strong><br>Grupo de Teatro Vida and Bloomington High School North<br>January 2009 - Febuary 2014</p>
+      <ul><li>Played several Spanish speaking parts in a series of one act plays</li>
+          <li>Performed in six plays and musicals including the lead role in <em>The Fantastics</em></li></ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="well" style="text-align: center">
+      <h3>Skills</h3>
+      <p>Java &middot; C/C++ &middot; Web Dev &middot; iOS &middot; Android</p>
+    </div>
+    </div>
+  </div>
+</div>
 
-
-
-<script>
-	var width = document.documentElement.clientWidth;
-	console.log(width);
-	var nav = document.getElementById("nav");
-
-	if (width < 500) {
-		nav.innerHTML = "<img src=\"image.jpg\">";
-
-	}
-
-
-
-</script>
 </body>
 </html>
