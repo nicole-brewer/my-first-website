@@ -1,0 +1,46 @@
+@import colors.sass
+
+$img-height: 100
+$img-width: 500
+
+body
+  padding: 0
+  margin: 0
+
+nav
+  display: fixed
+
+
+.bar
+  width: 100vw
+  display: flex
+  flex-wrap: nowrap
+  align-items: stretch
+  z-index: 100
+  padding: 1em
+  font-family: $title
+
+  .menu-item
+    flex-grow: 1
+
+#top-bar
+  justify-content: flex-end
+  position: fixed
+
+  a
+    color: inherit
+    text-decoration: inherit
+    
+
+
+#left-spacer
+  flex-basis: 80%
+
+#center-bar
+  justify-content: center
+
+#bottom-bar
+  justify-content: flex-start
+
+#right-spacer
+  flex-basis: 20%
