@@ -10,9 +10,10 @@
 		<script type="text/javascript" src="../scripts/skrollr.min.js"></script>
 </head>
 <body>
+	<div class="spacer" id="top-bar-spacer"></div>
 	<div id="nav-container">
-	<nav id="top-bar">
-			<a class="menu-item" id="menu-icon"><i class="fa fa-bars"></i></a>
+	<nav id="top-bar" class="top-bar">
+			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
 			<a href="www.nicole-brewer.com/blog/" class="menu-item page">Home</a>
 			<a href="www.nicole-brewer.com/blog/about" class="menu-item page">About</a>
 			<a href="www.nicole-brewer.com/blog/archive" class="menu-item page">Archive</a>
@@ -26,33 +27,9 @@
 			<a href="www.pinterest.com/brewer8722" class="menu-item social"><i class="fa fa-pinterest"></i></a>
 		  <a href="www.strava.com/nicole-brewer" class="menu-item social" style="height: 22px;"><img style="padding-top:3px;padding-bottom:3px;" src="../images/16.png"></a>
 		</nav></div>
-	<div class="spacer" id="top-bar-spacer"></div>
-	<!--
-	<img id="menu-image" data-0="height:100px;width:500px;opacity:1.0;" data-25="opacity:0.0;height:50px;width:250px" data-26="height:0;"></img>
--->
-	<div id="body">
-		<p>Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-			Space<br>space<br>space<br>space<br>
-		</p>
-		<!--
-		<iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/13268500/latest-rides/b6b34ae34904954d2026f3e9230cb21048d4b37b'></iframe>
-	-->
+
+	<div id="content">
+
 	</div>
 <footer>
 		<div id="copyright">Copyright nicole-brewer.com. All rights reserved.</div>
@@ -66,8 +43,14 @@
 	var topBarSpacer = document.getElementById('top-bar-spacer');
 	topBarSpacer.style.height = topBarHeight + 'px';
 
-
-	/*on change of viewport width, if width of nav is greater than width of #body, turn on flex wrap */
+	function dropDownMenu() {
+    var x = document.getElementById("top-bar");
+    if (x.className === "top-bar") {
+        x.className += " dropDown";
+    } else {
+        x.className = "top-bar";
+    }
+}
 
 	var s = skrollr.init({
 		constants: {
