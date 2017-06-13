@@ -1,0 +1,5 @@
+To do:
+Place header and footer in two different documents
+
+
+var content = document.querySelector('link[rel="import"]').import;
