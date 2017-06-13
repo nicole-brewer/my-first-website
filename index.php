@@ -10,8 +10,8 @@
 	<script type="text/javascript" src="scripts/skrollr.min.js"></script>
   </head>
   <body>
-  <?php include("header.php"); ?>
+  <?php include 'header.php'; ?>
   <p>Main body content!</p>
-  <?php include("footer.php"); ?>
+  <?php include 'footer.php'; ?>
   </body>
 </html>
