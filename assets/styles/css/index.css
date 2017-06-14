@@ -94,6 +94,8 @@ footer > * {
   padding: .7em 0 0 0;
   color: #3FE0CA;
   font-family: "Open Sans Condensed", sans-serif; }
+  footer > * a {
+    color: #3AB2A6; }
 
 #pro-icons {
   display: block; }
