@@ -1,7 +1,11 @@
+
+<?php
+	define('TITLE', 'Home');
+	?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Nicole Brewer</title>
+	<title><?php echo "TITLE";</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/blog/index.css">
@@ -10,8 +14,8 @@
 	<script type="text/javascript" src="scripts/skrollr.min.js"></script>
   </head>
   <body>
-  <?php include 'header.php'; ?>
+  <?php include('includes/header.php'); ?>
   <p>Main body content!</p>
-  <?php include 'footer.php'; ?>
+  <?php include('includesfooter.php'); ?>
   </body>
 </html>

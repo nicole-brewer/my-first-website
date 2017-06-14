@@ -1,9 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title><?php echo "TITLE";</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/blog/index.css">
+	<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:300" rel="stylesheet">
+	<script type="text/javascript" src="scripts/skrollr.min.js"></script>
+  </head>
+	<body>
 	<div class="spacer" id="top-bar-spacer"></div>
 	<div id="nav-container">
 	<nav id="top-bar" class="top-bar">
 			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
-			<a href="www.nicole-brewer.com/blog/" class="menu-item page">Home</a>
+			<a href="index.php" class="menu-item page">Home</a>
 			<a href="www.nicole-brewer.com/blog/about" class="menu-item page">About</a>
 			<a href="www.nicole-brewer.com/blog/archive" class="menu-item page">Archive</a>
 			<!--
