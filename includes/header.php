@@ -26,6 +26,6 @@
 		  -->
 			<a href="http://www.instagram.com/brewer.nicole" class="menu-item social"><i class="fa fa-instagram"></i></a>
 			<a href="http://www.pinterest.com/brewer8722" class="menu-item social"><i class="fa fa-pinterest"></i></a>
-			<a href="http://strava.com/athletes/13268500/badge" class="strava-badge- strava-badge-follow" target="_blank"><img src="//badges.strava.com/echelon-sprite-16.png" alt="Strava" /></a>
+		  <a href="http://www.strava.com/nicole-brewer" class="menu-item social" style="height: 22px;"><img style="padding-top:3px;padding-bottom:3px;" src="assets/images/16.png"></a>
 		</nav></div>
 	<main>

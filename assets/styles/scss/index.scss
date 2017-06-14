@@ -1,6 +1,7 @@
 $orange: #EF5E17;
 $burnt: #D04407;
 $electric: #3FE0CA;
+$blue: #3AB2A6;
 $light: #E2FFF8;
 $white: #FFFFFF;
 $gray: #1D1D1D;
@@ -119,11 +120,11 @@ footer {
 
 footer > * {
   padding: .7em 0 0 0;
-}
-
-#copyright {
   color: $electric;
   font-family: $quote;
+  a {
+    color: $blue;
+  }
 }
 
 #pro-icons {

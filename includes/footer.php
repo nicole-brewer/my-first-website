@@ -1,7 +1,9 @@
 </main>
 <footer>
-		<div id="copyright">&#169; <?php echo date('Y'); ?> Trekking Triathlete. All rights reserved.</div>
+		<div id="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date('Y'); ?> The Trekking Triathlete. All rights reserved.</div>
+		<div id="site-designer"><i class="fa fa-code" aria-hidden="true"></i> Developed by <a href="nicole-brewer">Nicole Brewer</a></div>
 		<div id="pro-icons">
+			<a
 			<a href="mailto:brewer36@purdue.edu" class="menu-item social"><i class="fa fa-envelope"></i></a>
 			<a href="https://github.com/nicole-brewer" class="menu-item social"><i class="fa fa-github"></i></a>
 			<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-linkedin"></i></a></div>

@@ -76,13 +76,6 @@ nav {
   #social-icons .fa {
     align-content: center; }
 
-
-.strava-badge- { display: inline-block; height: 16px; }
-.strava-badge- img { visibility: hidden; height: 16px; }
-.strava-badge-:hover { background-position: 0 -31px; }
-.strava-badge-follow { height: 16px; width: 16px; background: url(//badges.strava.com/echelon-sprite-16.png) no-repeat 0 0; }
-
-
 /* end nav */
 /* body */
 /* end body */
@@ -98,9 +91,7 @@ footer {
   text-align: center; }
 
 footer > * {
-  padding: .7em 0 0 0; }
-
-#copyright {
+  padding: .7em 0 0 0;
   color: #3FE0CA;
   font-family: "Open Sans Condensed", sans-serif; }
 
