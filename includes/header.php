@@ -27,7 +27,8 @@
 			<a href="www.pinterest.com/brewer8722" class="menu-item social"><i class="fa fa-pinterest"></i></a>
 		  <a href="www.strava.com/nicole-brewer" class="menu-item social" style="height: 22px;"><img style="padding-top:3px;padding-bottom:3px;" src="../images/16.png"></a>
 		</nav></div>
-<script>
+
+/*()<script>
 	var topBarHeight = document.getElementById('top-bar').offsetHeight;
 	var topBarSpacer = document.getElementById('top-bar-spacer');
 	topBarSpacer.style.height = topBarHeight + 'px';
@@ -49,5 +50,6 @@
 			}
 		}
 	});
-  */
+
 	</script>
+	*/
