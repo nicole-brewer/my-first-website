@@ -1,4 +1,7 @@
 
-  <?php include('includes/header.php'); ?>
+<?php
+	define('TITLE', 'Home | Trekking Triathlete');
+  include('includes/header.php');
+?>
   <p>Main body content!</p>
-  <?php include('includesfooter.php'); ?>
+  <?php include('includes/footer.php'); ?>

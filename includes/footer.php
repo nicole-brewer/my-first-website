@@ -1,6 +1,6 @@
 </main>
 <footer>
-		<div id="copyright">Copyright nicole-brewer.com. All rights reserved.</div>
+		<div id="copyright">&#169; <?php echo date('Y'); ?> Trekking Triathlete. All rights reserved.</div>
 		<div id="pro-icons">
 			<a href="mailto:brewer36@purdue.edu" class="menu-item social"><i class="fa fa-envelope"></i></a>
 			<a href="https://github.com/nicole-brewer" class="menu-item social"><i class="fa fa-github"></i></a>
