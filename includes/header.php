@@ -1,3 +1,7 @@
+<?php
+	include('includes/arrays.php');
+	?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +19,7 @@
 	<div id="nav-container">
 	<nav id="top-bar" class="top-bar">
 			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
-			<a href="www.nicole-brewer.com/blog/" class="menu-item page">Home</a>
-			<a href="www.nicole-brewer.com/blog/about" class="menu-item page">About</a>
-			<a href="www.nicole-brewer.com/blog/archive" class="menu-item page">Archive</a>
+			<?php include('includes/nav.php)'); ?>
 			<!--
 			<a href="www.youtube.com/" class="menu-item social"><i class="fa fa-youtube"></i></a>
 			<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-google-plus-official"></i></a>
