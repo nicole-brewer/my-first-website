@@ -11,7 +11,8 @@
     array(
       slug => "archive.php",
       title => "Archive"
-    ),
+    )
   );
+
 
 ?>
