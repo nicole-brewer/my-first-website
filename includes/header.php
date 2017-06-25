@@ -20,14 +20,9 @@
 	<nav id="top-bar" class="top-bar">
 			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
 			<?php include('../includes/nav.php)'); ?>
-			<!--
-			<a href="www.youtube.com/" class="menu-item social"><i class="fa fa-youtube"></i></a>
 			<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-google-plus-official"></i></a>
-			bloglovin
-			<a href="www.facebook.com/nicole.brewer.798" class="menu-item social"><i class="fa fa-facebook"></i></a>
-		  -->
 			<a href="http://www.instagram.com/brewer.nicole" class="menu-item social"><i class="fa fa-instagram"></i></a>
 			<a href="http://www.pinterest.com/brewer8722" class="menu-item social"><i class="fa fa-pinterest"></i></a>
-		  <a href="http://www.strava.com/nicole-brewer" class="menu-item social" style="height: 22px;"><img style="padding-top:3px;padding-bottom:3px;" src="assets/images/16.png"></a>
+		  <a href="http://www.strava.com/nicole-brewer" class="menu-item social" style="height: 22px;"><img style="padding-top:3px;padding-bottom:3px;" src="images/16.png"></a>
 		</nav></div>
 	<main>
