@@ -1,4 +1,5 @@
 <?php
+	include('../lib/module.php');
 	$index = new Module("index", "index.php");
 	$directories = scandir("../modules", SCANDIR_SORT_ASCENDING);
 	$modules;
