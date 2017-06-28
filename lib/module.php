@@ -1,7 +1,7 @@
 <?php
 
 class Module {
-  public $name, $id, $handle, $path
+  public $name, $id, $handle, $path;
 
   function __construct($directory) {
     $this->path = $directory->path;

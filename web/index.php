@@ -1,5 +1,5 @@
 <?php
-	include('../lib/module.php');
+	/*include('../lib/module.php');
 	$index = new Module("index", "index.php");
 	$directories = scandir("../modules", SCANDIR_SORT_ASCENDING);
 	$modules;
@@ -7,6 +7,7 @@
 	foreach ($directories as $directory) {
 		$modules[i] = new module($directory);
 	}
+	*/
 
 
   define('TITLE', 'Home | nicole-brewer.com');
