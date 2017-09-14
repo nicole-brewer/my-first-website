@@ -82,9 +82,6 @@ nav {
 /* footer */
 footer {
   background-color: #E2FFF8;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100vw;
   padding: 0 0 .7em 0;
   margin: 0;
