@@ -12,13 +12,13 @@ $quote: 'Open Sans Condensed', sans-serif;
 body {
   margin: 0;
   padding: 0;
-  background-color: $gray;
-  min-height: 100vh;
+  background-color: $white;
+  min-height: 100%;
 }
 
 main {
   padding: 0;
-  margin:0;
+  height: auto;
 }
 
 a {
@@ -108,19 +108,26 @@ nav {
 /* end body */
 /* footer */
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: $light;
   width: 100vw;
-  padding: 0 0 .7em 0;
+  padding: 1em 0 1em 0;
   margin: 0;
   text-align: center;
 }
 
 footer > * {
-  padding: .7em 0 0 0;
+  flex-grow: 1;
   color: $electric;
   font-family: $quote;
   a {
     color: $blue;
+  }
+  small {
+    padding: .7em;
   }
 }
 
@@ -138,5 +145,4 @@ footer > * {
 .spacer {
   opacity: 0.0;
   margin: 0;
-  padding: 0;
 }

@@ -8,10 +8,6 @@
       slug => "about.php",
       title => "About"
     ),
-    array(
-      slug => "archive.php",
-      title => "Archive"
-    )
   );
 
 
