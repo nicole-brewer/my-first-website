@@ -10,11 +10,7 @@
 <script>
 	var topBarHeight = document.getElementById('top-bar').offsetHeight;
 	var topBarSpacer = document.getElementById('top-bar-spacer');
-	//var mainHeight = document.getElementsByTagName("BODY")[0];
-	var footerHeight = document.getElementsByTagName("footer")[0].offsetHeight;
 	topBarSpacer.style.height = topBarHeight + 'px';
-
-	document.getElementsByTagName("main")[0].style.height = window.innerHeight - topBarHeight - footerHeight + 'px';
 
 	function dropDownMenu() {
     var x = document.getElementById("top-bar");
