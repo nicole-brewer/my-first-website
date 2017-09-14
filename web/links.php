@@ -1,4 +1,4 @@
-<?php include(../../includes/header.php); ?>
+<?php include(../includes/header.php); ?>
 <h1>Projects</h1>
   <h2>Project Rhea</h2>
   <h3 href="https://www.projectrhea.org/rhea/index.php/Math_squad">Math Squad</h3>
@@ -13,4 +13,4 @@
   <h3>Strava</h3>
   <p>As a collegiate triathlete, I train all year with Run Club and Triathlon Club!</p>
   <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/13268500/latest-rides/b6b34ae34904954d2026f3e9230cb21048d4b37b'></iframe>
-  <?php include(../../includes/footer.php); ?>
+  <?php include(../includes/footer.php); ?>
