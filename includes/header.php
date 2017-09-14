@@ -1,6 +1,3 @@
-<?php
-	include('../includes/arrays.php');
-	?>
 
 <!DOCTYPE html>
 <html lang="en">
