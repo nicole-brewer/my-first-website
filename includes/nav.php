@@ -1,6 +1,7 @@
-
 <?php
-  foreach ($navItems as $item) {
-    echo "<a href=\"$item[slug]\" class=\"menu-item page\">$item[title]</a>";
+  foreach ($content as $page) {
+    $path = ROOT.$page[file];
+    $title = $page[title];
+    echo "<a href=\"$path\" class=\"menu-item page\">$title</a>";
   }
- ?>
+?>

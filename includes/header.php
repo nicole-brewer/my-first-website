@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +15,7 @@
 	<div id="nav-container">
 	<nav id="top-bar" class="top-bar">
 			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
-			<a href="index.php" class="menu-item page">Nicole Brewer</a>
+				<?php include(ROOT.'includes/nav.php'); ?>
 			<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-linkedin"></i></a>
 			<a href="http://www.instagram.com/brewer.nicole" class="menu-item social"><i class="fa fa-instagram"></i></a>
 		</nav></div>
