@@ -14,9 +14,13 @@
 	<div class="spacer" id="top-bar-spacer"></div>
 	<div id="nav-container">
 	<nav id="top-bar" class="top-bar">
-			<a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
-				<?php include(ROOT.'includes/nav.php'); ?>
-			<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-linkedin"></i></a>
-			<a href="http://www.instagram.com/brewer.nicole" class="menu-item social"><i class="fa fa-instagram"></i></a>
+			  <a class="menu-item" id="menu-icon" onclick="dropDownMenu()"><i class="fa fa-bars"></i></a>
+				<a href="" class="page">About</a>
+				<a href="" class="page">Resume</a>
+				<a href="" class="page">Projects</a>
+				<a href="" class="page">Triathlon</a>
+				<a href="https://github.com/nicole-brewer" class="menu-item social"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/nicole-brewer" class="menu-item social"><i class="fa fa-linkedin"></i></a>
+				<a href="https://twitter.com/catch_me_coding" class="menu-item social"><i class="fa fa-twitter"></i></a>
 		</nav></div>
 	<main>
