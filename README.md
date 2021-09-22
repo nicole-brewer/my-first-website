@@ -1,6 +1,8 @@
-# nicole-brewer.com
-[This little website](http://www.nicole-brewer.com) is my playground for web development. I started out about a year ago with experience at all, but by the power of the internet I've managed to teach myself quite a bit in my free time.
-This is a list of what I've accomplished and what I'm currently working on adding to the site:
+# My First Website
+
+This little website was my playground for web development in 2017. At the time, I didn't realize just quite how relevant this project would be to my future work, where I would contribute to the science gateway [MyGeoHub](mygeohub.org). I was able to teach myself HTML, CSS, Sass, and PHP to build this dynamic website. I spent a lot of time on creating a header that shrunk in size as you scrolled down from the top of the page. I also implemented a responsive menu with flexbox.
+
+## Features:
 
 - [x] Learn basic HTML and CSS
 - [x] Use flex-box and media queries to make the menu mobile friendly
@@ -9,9 +11,6 @@ This is a list of what I've accomplished and what I'm currently working on addin
 - [x] Set up a mySQL database to house my blog on my server
 - [ ] Create an "About" and a "Resume" page
 - [ ] Create a blog page that uses my database by connecting to the server
-
-Thanks for visiting!
-
 
 
 
